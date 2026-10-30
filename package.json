@@ -1,0 +1,33 @@
+{
+  "name": "sonar-checkhost",
+  "version": "1.0.0",
+  "description": "Check any domain or IP from your terminal: DNS, TCP latency, HTTP timing, TLS certificate, open ports, network location and worldwide reachability from check-host.net nodes.",
+  "bin": {
+    "sonar": "bin/sonar.js"
+  },
+  "main": "src/runner.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "start": "node bin/sonar.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "check-host",
+    "ping",
+    "dns",
+    "tls",
+    "ssl",
+    "port-scanner",
+    "uptime",
+    "cli",
+    "network",
+    "diagnostics"
+  ],
+  "license": "MIT"
+}
