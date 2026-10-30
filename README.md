@@ -50,7 +50,7 @@ sonar github.com
 </div>
 
 ```bash
-git clone https://github.com/<your-username>/sonar.git
+git clone https://github.com/amirjrha/sonar.git
 cd sonar
 npm link          # دستور sonar را در کل سیستم فعال می‌کند
 ```
@@ -191,7 +191,7 @@ console.log(report.score); // { value: 92, grade: 'A' }
 - A **0–100 score and A+…F grade**, plus a list of concrete findings.
 
 ```bash
-git clone https://github.com/<your-username>/sonar.git && cd sonar && npm link
+git clone https://github.com/amirjrha/sonar.git && cd sonar && npm link
 sonar github.com
 sonar 1.1.1.1 --global --nodes 30
 sonar example.com --json > report.json
